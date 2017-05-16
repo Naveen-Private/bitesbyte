@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
+Route::group(['middleware' => ['web'],'namespace' => 'Customer'], function () {
+	Route::get('/', ['as' => 'welcome','uses' => 'HomePageController@index']);
 });

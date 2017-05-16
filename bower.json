@@ -1,0 +1,35 @@
+{
+  "name": "bitesbyte",
+  "description": "The Laravel 5.4 framework",
+  "keywords": [
+    "framework",
+    "laravel",
+    "laravel 5.4",
+    "template",
+    "bootstrap",
+    "responsive",
+    "admin",
+    "php",
+    "html",
+    "css"
+  ],
+  "main": "",
+  "authors": [
+    "FlorientR"
+  ],
+  "license": "Naveen",
+  "homepage": "https://github.com/Naveen-Private/bitesbyte",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.3",
+    "bootstrap": "^3.3.7",
+    "font-awesome": "fontawesome#^4.6.1",
+    "jQuery-Smart-Wizard": "^3.3.1",
+  }
+}
